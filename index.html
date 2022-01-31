@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Alpine.js Example - Modal</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+	<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+</head>
+
+<body>
+
+    <div class="popup__stella" x-data="{ open: true }"  x-show="open">     
+        <div class="popup">
+            <button class="popbtn" x-on:click="open = ! open"><i class='bx bx-x'></i></button>
+            <div class="popimg"></div>
+            <div class="poptext">
+                <p>du 07/01/2022 au 31/01/2022</p>
+                <h2>SOLDES</h2>
+                <h4>jusqu' à -30% sur une séléction de produits</h4>
+                <a class="popbnt2" href="">découvrir</a>
+            </div>
+            <img src="fille 2.png" alt="">
+        </div>
+    </div>
+
+</body>

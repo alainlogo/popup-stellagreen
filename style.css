@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: gold;
+}
+.popup__stella{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.popup{
+    height: 500px;
+    width: 800px;
+    background-color: white;
+    position: relative;
+}
+.popbtn{
+    position: absolute;
+    right: -40px;
+    border: none;
+    top: -40px;
+    height: 70px;
+    width: 70px;
+    background-color: brown;
+    border-radius: 50%;
+    color: white;
+}
+.popbtn i{
+    font-size: 30px;
+}
+.popimg{
+    width: 70%;
+    height: 100%;
+    background-image: url(pexels-julie-aagaard-2120584.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.poptext{
+    position: absolute;
+    width: 400px;
+    height: 230px;
+    top: 20%;
+    right:0;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+.poptext p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.poptext h2{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.poptext h4{
+    margin-bottom: 50px;
+}
+.poptext a{
+    padding: 20px 40px;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.popup img{
+    position: absolute;
+    bottom: 0;
+    left: -20%;
+    width: 70%;
+}
